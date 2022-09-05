@@ -1,0 +1,8 @@
+This lesson is about Redux and its usage for serving as a global
+store which can be shared accross components.
+
+* NOTICE *
+
+- Important thing to know, is to never mutate the state directly,
+  let Redux do that by just creating a copy of the state and updating
+  the existing one.

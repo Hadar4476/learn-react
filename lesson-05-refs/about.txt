@@ -1,0 +1,11 @@
+This lesson is about refs,
+Refs are node elements references which can be accessed with	React hook - useRef.
+
+Baisicly using ref is the equivalent of getiing node elements with: 
+
+document.getElementById
+document.querySelector
+
+etc.
+
+If I want to access something inside a referenced component from the outside of it, I can use useImperativeHandle hook.

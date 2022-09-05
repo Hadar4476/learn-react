@@ -1,0 +1,4 @@
+This lesson is about the library "@reduxjs/toolkit".
+
+This library allows a much clean way to configure a Redux store and
+direct mutations of state in reducer functions.

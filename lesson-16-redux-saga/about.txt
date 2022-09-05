@@ -1,0 +1,5 @@
+This lesson is about Redux-saga.
+
+Redux-saga is a library which is used for applying asynchronous side effects to Redux's reducers.
+It listens to a certain action and execute an asynchronous code via "saga watchers".
+This makes the code very clean and organized due to the fact that it splits the synchronous reducers code and the asynchronous saga code.

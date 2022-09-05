@@ -1,0 +1,4 @@
+This lesson is about useEffect hook.
+
+This hook is used for watching for any changes in our state and execute something according to that change.
+It works like watch in Vue and can be also work when the component is initialized(created/mounted).

@@ -1,0 +1,11 @@
+.UserList {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  max-width: 700px;
+  border-radius: 16px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

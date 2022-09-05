@@ -1,0 +1,6 @@
+This lesson is about React's routing system.
+
+This lesson showcase how to implement routing to a React app,
+How to configure certain routes, how to use nested routes, how to get and pass query and params to a URL into the component and how some useful routing hooks are being used.
+
+Find more about of this in practice folder > lesson 17 project

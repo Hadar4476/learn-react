@@ -1,0 +1,29 @@
+This lesson is about React.memo,
+
+First, what need to be known, is that for every state, prop or context 
+change - a React component is being re-evaluated.
+re-evaluation means that it is not re-rendering(resulting a change in the real DOM according to the Virtual DOM), instead it is just getting 
+re-executed but the real DOM is not updated.
+
+Second, for every re-evaluation, the children of the component, will 
+re-evaluate as well, which may lead to performance issues, because there are some unnecessary re-evaluations of components which are not depended on a change of a state.
+
+This is where React.memo is shines.
+
+* NOTICE *
+First, It is important to know that if I choose to use React.memo,
+I do solve the unnecessary re-evaluations, but I would face another issue depending on the component:
+
+When using React.memo, React needs to do 2 things which may cause performance issue as well(depending on the complexity of that component):
+
+1. Store the pervious state
+2. Compare the old state with the new state on every re-evaluation
+
+Second, It is also important to know that even if a component is using React.memo
+and it depends on a non-primitive state properties(objects, arrays and functions) it will still
+get re-evaluated because this is how javascript works with non-primitive comparison.
+
+To make a usage of React.memo in non-primitives like functions, I can use useCallback.
+
+Conclusions:
+React.memo should be used on a simple components which will not get re-evaluated that often.

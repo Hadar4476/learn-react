@@ -1,0 +1,11 @@
+This lesson is about understanding the core features of React:
+
+- props
+- children
+- state
+- events
+- conditional rendering
+- 2 way binding
+- list rendering
+
+It is a little project for adding/deleting items, filtering a list of items and a bit of logic with styling.

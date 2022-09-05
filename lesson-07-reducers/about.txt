@@ -1,0 +1,2 @@
+This lesson is about useReducer hook,
+This hook is a replacement of useState hook for managing a much	Larger state.

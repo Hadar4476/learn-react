@@ -1,0 +1,9 @@
+This lesson is about custom hooks in React,
+
+The convention for creating a custom hook is the following:
+1. Must be an exported function.
+2. Must start with the word "use".
+
+Custom hooks are like utilities but for much complex logic,
+You can manage state there, use React basic hooks and receive
+arguments which can effect the custom hook logic.

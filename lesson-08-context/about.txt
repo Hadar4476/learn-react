@@ -1,0 +1,4 @@
+This lesson is about Context API which can be used as a store for
+Preventing prop drilling and messy code.
+
+Every context store needs a configuration file and can be accessed with useContext hook.

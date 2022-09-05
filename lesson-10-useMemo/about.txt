@@ -1,0 +1,6 @@
+This lesson is about useMemo hook,
+
+This hook works similiar to useCallback hook but for arrays and objects.
+It comes to solve the performance issue of components re-evaluation when the state updates.
+Because Javascript can not compate non-primite types, such as functions, arrays and objects,
+useMemo comes in act.

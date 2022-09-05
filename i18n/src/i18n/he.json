@@ -1,0 +1,9 @@
+{
+  "homepage": {
+    "title": "דף הבית"
+  },
+  "language": {
+    "changedOnce": "שינית את שפת המערכת פעם {{amount}}",
+    "changedMultiple": "שינית את שפת המערכת {{amount}} פעמים"
+  }
+}

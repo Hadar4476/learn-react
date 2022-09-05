@@ -1,0 +1,9 @@
+{
+  "homepage": {
+    "title": "Homepage"
+  },
+  "language": {
+    "changedOnce": "You have changed the language {{amount}} time",
+    "changedMultiple": "You have changed the language {{amount}} times"
+  }
+}

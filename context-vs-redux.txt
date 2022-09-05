@@ -1,0 +1,9 @@
+Context:
+
+Disadvantages:
+
+- Can lead to large providers nesting.
+- Can lead to complex state management if choose to be as a
+  one large state.
+- Should be used for low frequency changes because performance 
+  can not compete with Redux's.

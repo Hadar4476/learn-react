@@ -1,0 +1,7 @@
+This lesson is about solving an issue with elements which should be(for best practice reason) positioned in the DOM at a dedicated fitting spot.
+
+For example: a modal.
+A modal should not be placed inside of a <header> element,
+It should be placed directly under the <body> element.
+
+This is where React's portals come to help.
