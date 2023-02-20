@@ -1,5 +1,5 @@
 This lesson is about refs,
-Refs are node elements references which can be accessed with	React hook - useRef.
+Refs are node elements references which can be accessed with a React hook - useRef.
 
 Baisicly using ref is the equivalent of getiing node elements with: 
 
