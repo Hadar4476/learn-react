@@ -1,1 +1,1 @@
-This lesson is about improving DOM rendering performance and hot to do it with root elements alternatives.
+This lesson is about improving DOM rendering performance and how to do it with root elements alternatives.
